@@ -1,0 +1,189 @@
+  *{
+    
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
+   
+  }
+  body{
+     overflow-x:hidden;
+  }
+  nav a{
+    font-size: xx-large;
+    
+  }
+  nav a:hover{
+    border-bottom: 2px solid white;
+    transition: all 2s;
+  }
+  .navbar{
+    transition: all 0.5s;
+  
+  }
+  .navbar-scrolled{
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 5px 2px 2px wheat;
+  }
+   .fadhl{
+     padding: 50px;
+      position:relative;
+      top: -800px;
+      background-color: rgba(243, 239, 234, 0.3);
+      color: rgb(165, 128, 42);
+  }
+  .background {
+  position: relative;
+  top: -200px;
+  z-index: -1;
+  height: 125%;
+   
+  }
+  
+  .titre{
+    color:rgb(157, 110, 50);
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+  }
+  #adhkar{
+    margin-top: -500px;
+    margin-bottom: 100px;
+  }
+  
+  .dikr-type{
+    margin: 20px;
+    border: 3px solid wheat;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(157, 110, 50);
+    font-size: 15px;
+  }
+.dikr-type:hover{
+ background-color: wheat;
+ font-size: 15.5px;
+ cursor: pointer;
+}
+.dikr-type a{
+  text-decoration: none;
+  color: black;
+}
+  .adkar-type{
+     margin-bottom: 50px;
+  }
+  .type{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    
+  }
+  .dikr{
+    border: 2px solid rgb(157, 110, 50);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: wheat;
+    margin-top: 25px;
+  }
+  .repetition:hover{
+    background-color: wheat;
+    cursor: pointer;
+  }
+  .repetition{
+    border: 2px solid rgb(157, 110, 50);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    background-color:rgb(157, 110, 50);
+     margin-left: 47%;
+  }
+  
+  
+  .num{
+    margin-top: 10px;
+    font-size: large;
+   
+  }
+  .dikr-text{
+   border: 2px solid rgb(157, 110, 50);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .kissa-name{
+    border: 2px solid wheat;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(157, 110, 50);
+  }
+  .kissa-name:hover {
+    background-color:wheat;
+    cursor: pointer;
+  }
+  .story{
+font-size:x-large;
+  }
+  
+  .drop-down{
+    position: absolute;
+    margin-top: -25px;
+    left: 10%;
+    color: black;
+  }
+  .rotate-icon{
+    transform: rotate(180deg);
+    transition: all 0.8s;
+  }
+  .titles{
+    color: #d6ae7b;
+  }
+  footer{
+    margin-top: 100px;
+    background-color: #d6ae7b;
+    padding: 50px;
+  }
+  .contact{
+    margin-top: 20px;
+  }
+  .icons{
+   
+    color: rgb(157, 110, 50);
+    cursor: pointer;
+
+   
+  }
+  .icons:hover{
+    
+    width: 25px;
+    transition: all 0.5s;
+  }
+  @media (max-width: 576px) {
+    .first{
+      height: 100%;
+      
+      background-image: url(/Users/mac/Downloads/adhkar/21757492_6525334.jpg);  /* fallback for old browsers */
+     /*
+      background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 
+      background: linear-gradient(to right, #d6ae7b, #eacda3); 
+      */
+      
+    }
+    .navbar{
+      background-color: #d6ae7b;
+    }
+    .fadhl{
+    margin-top: 150px;
+    background-color: transparent;
+   }
+  .background {
+  position:absolute;
+  top: 0px;
+   display: none;
+   }
+   
+   
+   }
+ 
